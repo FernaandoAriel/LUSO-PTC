@@ -1,0 +1,171 @@
+* {
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.encabezado{
+  position: relative;
+  background: url('../img/banner-contactanos.jpg') no-repeat center;
+  background-size: cover;
+  height: 360px;
+  overflow: hidden;
+}
+
+.titulo{
+  padding-top: 5%;
+  font-family: 'Hind Guntur', sans-serif;
+  text-align: center;
+  font-size: 410%;
+  color: #fff;
+  margin-top: 50px;
+  text-shadow: 5px 5px 5px rgb(51, 51, 51);
+}
+
+.encabezado p {
+  padding-top: 0%;
+  font-family: 'Hind Guntur', sans-serif;
+  text-align: center;
+  font-size: 150%;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgb(96, 96, 96);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  margin-right: 10px;
+}
+
+h1 {
+  text-align: left;
+  margin: 0;
+}
+
+.des-btn {
+  margin-left: auto;
+  margin-right: 20px;
+  font-size: large;
+  background-color: #ed2839;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px 19px;
+}
+
+.center-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.col-lg-4 {
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+}
+
+.press-btn,
+.help-btn {
+  font-size: 1rem;
+  padding: 5px 15px;
+  background-color: #ed2839;
+  font-weight: bold;
+  color: #fff;
+  border-color: #ed2839;
+}
+
+.prensa,
+.info,
+.help {
+  margin: 20px;
+}
+
+.formCU {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+#enviarBtn {
+  font-size: 1rem;
+  padding: 5px 15px;
+  background-color: #ed2839;
+  color: #fff;
+  border-color: #ed2839;
+}
+
+/* Media Queries */
+@media (min-width: 992px) {
+  .entrada h1 {
+    font-size: 2rem;
+  }
+  .entrada p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-lg-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .entrada h1 {
+    font-size: 1.5rem;
+  }
+  .entrada p {
+    font-size: 1rem;
+  }
+  .press-btn,
+  .help-btn {
+    font-size: 0.875rem;
+    padding: 10px 20px;
+  }
+  #nombre,
+  #correo,
+  #mensaje {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .entrada h1 {
+    font-size: 1.25rem;
+  }
+  .entrada p {
+    font-size: 0.875rem;
+  }
+  .press-btn,
+  .help-btn {
+    font-size: 0.75rem;
+    padding: 8px 16px;
+  }
+  #nombre,
+  #correo,
+  #mensaje {
+    font-size: 0.875rem;
+  }
+}
